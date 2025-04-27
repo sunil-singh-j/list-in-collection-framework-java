@@ -1,4 +1,4 @@
-package demo;
+package arraylist;
 
 //public class Student implements Comparable<Student> {// for comparable
 public class Student  {
