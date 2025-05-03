@@ -32,6 +32,12 @@ public class Main {
 		LinkedList<String> animalsToRemove=new LinkedList<String>(Arrays.asList("Cat","dog"));
 		System.out.println(animalsToRemove);//[Cat, dog]
 		System.out.println(animals.removeAll(animalsToRemove));//true
-		System.out.println(animals);
+		System.out.println(animals);//[elephant, tiger]
+		
+		
+		System.out.println(animals.isEmpty());//false
+		animals.clear();
+		System.out.println(animals);//[]
+		System.out.println(animals.isEmpty());//true
 	}
 }
